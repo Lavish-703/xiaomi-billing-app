@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "858574597245",
+    "project_id": "xiaomi-billing-app",
+    "storage_bucket": "xiaomi-billing-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858574597245:android:dd5f4ec526123884ff1514",
+        "android_client_info": {
+          "package_name": "com.example.xiaomi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858574597245-qam0oclnud273s92283l0e6p3m73g59i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xiaomi",
+            "certificate_hash": "27ddd2ce3a1b992aca47c792933cdb3c663c55e7"
+          }
+        },
+        {
+          "client_id": "858574597245-sj37hmbvkl6fakg3da5at635og3me3vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBezd7OlgH4Qo4BHQ9wI7CPKDVlLcwLYRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858574597245-sj37hmbvkl6fakg3da5at635og3me3vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
