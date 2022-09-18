@@ -4,6 +4,7 @@ import 'package:xiaomi/screens/home_screen.dart';
 import 'package:xiaomi/screens/reset_password.dart';
 import 'package:xiaomi/screens/signup_screen.dart';
 import 'package:xiaomi/utils/color_utils.dart';
+import 'package:xiaomi/screens/order.dart';
 import 'package:flutter/material.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -56,7 +57,7 @@ class _SignInScreenState extends State<SignInScreen> {
                           password: _passwordTextController.text)
                       .then((value) {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => HomeScreen()));
+                        MaterialPageRoute(builder: (context) => DynamicTextFieldView()));
                   }).onError((error, stackTrace) {
                     print("Error ${error.toString()}");
                   });

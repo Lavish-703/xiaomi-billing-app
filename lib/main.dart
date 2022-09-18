@@ -1,6 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:xiaomi/screens/signin_screen.dart';
 import 'package:xiaomi/screens/place_order.dart';
+import 'package:xiaomi/screens/customer.dart';
+import 'package:xiaomi/screens/order.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -29,7 +31,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SignInScreen(),
+      home: MyHomePage(),
+      // home: const SignInScreen(),
       // home: const Dtext(),
     );
   }
